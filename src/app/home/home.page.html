@@ -9,3 +9,22 @@
     </div>
   </div>
 </ion-header>
+<ion-content>
+  <div class="dividing-line"></div>
+<div class="navigation_container">
+  <ion-segment class="navigation_segments" mode="md" (ionChange)="segmentChanged($event)">
+    <ion-segment-button class="segments-button" value="1" layout="icon-start">
+      <ion-icon class="segments-icons" name="ribbon-outline"></ion-icon>
+      <ion-label class="segments-title">QUIÉNES SOMOS</ion-label>
+    </ion-segment-button>
+    <ion-segment-button class="segments-button" value="2" layout="icon-start">
+      <ion-icon class="segments-icons" name="bag-check-outline"></ion-icon>
+      <ion-label class="segments-title">NUESTRO TRABAJO</ion-label>
+    </ion-segment-button>
+    <ion-segment-button class="segments-button" value="3" layout="icon-start">
+      <ion-icon class="segments-icons" name="today-outline"></ion-icon>
+      <ion-label class="segments-title">AGENDATE</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+</div>
+</ion-content>

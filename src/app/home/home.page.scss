@@ -1,6 +1,6 @@
 .header{
   height: 15%;
-  background-color: rgb(135, 16, 151);
+  background-color: #871097;
 }
 
 .header_container{
@@ -38,4 +38,22 @@
       font-style: italic;
       font-size: 20px;
     }
+}
+.dividing-line{
+  height: 2px;
+  background-color: #807e7e;
+}
+.segments-button{
+  background-color: #720a80;
+  border: 0.5px solid #807e7e;
+
+      .segments-title{
+        font-size: 10px;
+        color: #ffffff;
+      }
+
+      .segments-icons{
+        font-size: 20px;
+        color: #ffffff;
+      }
 }
