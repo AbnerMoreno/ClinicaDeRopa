@@ -1,0 +1,19 @@
+.socialMedia-Container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #720a80;
+
+      .socialMedia-items{
+        display: flex;
+        font-size: 15px;
+        align-items: flex-end;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 15px;
+
+          .socialMedia-icons{
+            font-size: 30px;
+          }
+      }
+}
