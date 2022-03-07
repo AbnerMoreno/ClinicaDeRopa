@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'aboutus',
     loadChildren: () => import('./aboutus/aboutus.module').then( m => m.AboutusPageModule)
   },
+  {
+    path: 'reservas',
+    loadChildren: () => import('./reservas/reservas.module').then( m => m.ReservasPageModule)
+  },
 ];
 
 @NgModule({
