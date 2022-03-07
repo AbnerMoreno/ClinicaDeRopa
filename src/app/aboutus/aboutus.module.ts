@@ -1,3 +1,4 @@
+import { ComponentsModule } from './../components/components.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -13,7 +14,8 @@ import { AboutusPage } from './aboutus.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    AboutusPageRoutingModule
+    AboutusPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [AboutusPage]
 })
