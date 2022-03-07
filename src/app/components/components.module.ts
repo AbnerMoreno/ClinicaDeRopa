@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { IonicModule } from '@ionic/angular';
 import { FooterComponent } from './footer/footer.component';
 import { HeadersPage } from './headers/headers.page';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -21,6 +22,7 @@ import { HeadersPage } from './headers/headers.page';
   imports: [
     CommonModule,
     IonicModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }
