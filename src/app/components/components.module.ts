@@ -3,21 +3,26 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { IonicModule } from '@ionic/angular';
 import { FooterComponent } from './footer/footer.component';
+import { HeadersPage } from './headers/headers.page';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeadersPage
   ],
   exports:[
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeadersPage
   ],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }

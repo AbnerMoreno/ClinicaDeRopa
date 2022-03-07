@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'reservas',
     loadChildren: () => import('./reservas/reservas.module').then( m => m.ReservasPageModule)
+  },  {
+    path: 'headers',
+    loadChildren: () => import('./components/headers/headers.module').then( m => m.HeadersPageModule)
   },
+
 ];
 
 @NgModule({
