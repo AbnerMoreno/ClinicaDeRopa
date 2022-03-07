@@ -1,6 +1,7 @@
 .container{
-    height: 79%;
+    height: 75%;
     width: 100%;
+    margin-top: 30px;
     background-color: #720a80;
 }
 .container-nav{
@@ -9,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: burlywood;
 
         .nav-title{
             font-size: 16px;
@@ -20,5 +22,16 @@
             font-size: 20px;
             color: white;
             margin-right: 10px;
+        }
+}
+.gallery{
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+        .gallery-cards{
+            height: 150px;
+            width: 150px;
         }
 }
