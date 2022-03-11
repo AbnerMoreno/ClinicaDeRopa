@@ -4,8 +4,12 @@
     height: 79%;
     background-color: #720a80;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
+
+    .container-title{
+        text-align: center;
+    }
 }
 .booking-options{
     display: flex;
@@ -17,5 +21,19 @@
         .booking-botom{
             width: 300px;
             height: 60px;
+          --border-radius:0px;
         }
+        .bookin-text{
+            font-size: 10px;
+            max-width: 300px;
+        }
+}
+
+.action-buttons{
+    display: flex;
+    gap: 15px;
+}
+.buttons-action{
+    height: 40px;
+    width: 160px;
 }
