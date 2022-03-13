@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'headers',
     loadChildren: () => import('./components/headers/headers.module').then( m => m.HeadersPageModule)
   },
+  {
+    path: 'formbooking',
+    loadChildren: () => import('./formbooking/formbooking.module').then( m => m.FormbookingPageModule)
+  },
 
 ];
 
